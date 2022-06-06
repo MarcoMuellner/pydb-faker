@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pydb-faker"
+version = "0.1.0"
+authors = ["Marco Müllner <muellnermarco@gmail.com>"]
+description = "A python module that creates mock data for your database according to your schema using faker"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/MarcoMuellner/pydb-faker"
+repository = "https://github.com/MarcoMuellner/pydb-faker"
+keywords = ["database","postgres","mysql","sqlite"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+Faker = "^13.12.1"
+PyPika = "^0.48.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
